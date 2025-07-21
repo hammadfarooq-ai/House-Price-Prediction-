@@ -1,14 +1,71 @@
-🏡 Housing Price Prediction Project
-This project focuses on predicting housing prices using a supervised machine learning approach. Leveraging Python libraries such as Pandas, NumPy, Matplotlib, Seaborn, and Scikit-learn, the workflow involves:
+# 🏠 California Housing Price Prediction
 
-Loading and exploring a housing dataset
+This project uses the **California housing dataset** to build a machine learning model that predicts housing prices based on several features like location, rooms, population, and more.
 
-Preprocessing data (e.g., encoding categorical variables, handling missing values)
+---
 
-Splitting the dataset into training and testing sets
+## 📁 Dataset
 
-Training a Linear Regression model
+📥 Download it from [Kaggle: California Housing Prices](https://www.kaggle.com/datasets/camnugent/california-housing-prices)
 
-Evaluating model performance and visualizing results
+---
 
-The goal is to build a reliable regression model that can estimate housing prices based on key features like area, number of bedrooms, furnishing status, and location-related attributes.
+## 📊 Problem Statement
+
+Given features such as:
+- Median income
+- Number of rooms
+- Population
+- Latitude & Longitude
+- Ocean proximity
+
+Predict the **median house value**.
+
+---
+
+## 🔧 Project Structure
+
+```
+housing-price-prediction/
+│
+├── housing_price_prediction.ipynb # Main ML script
+├── README.md # Project documentation
+└── requirements.txt
+```
+
+---
+
+## 🚀 Getting Started
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/your-username/housing-price-prediction.git
+cd housing-price-prediction
+```
+## Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+Or manually:
+```bash 
+pip install pandas numpy scikit-learn seaborn matplotlib
+```
+## Run the Script
+Make sure the dataset housing.csv is in the same directory:
+```bash
+python housing_price_prediction.py
+```
+
+---
+
+### Optional: `requirements.txt`
+
+```txt
+pandas
+numpy
+scikit-learn
+matplotlib
+seaborn
+
